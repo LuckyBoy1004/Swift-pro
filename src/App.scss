@@ -1,0 +1,79 @@
+$border-color: #BBBBBB;
+$contrast-color: #5BB166;
+$clear-color: #E2E2E2;
+
+*{
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif !important;
+}
+body{
+  font-family: sans-serif !important;
+  font-size: 62.5%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#root{
+  position: relative;
+  min-height: 100vh;
+  background-color: #151515;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
+.App{
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+.section-content-text {
+  font-size: 12px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.section-title {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.swift-card {
+  background-color: #FFFFFF;
+  width: 350px;
+  color: black;
+  border-radius: 1rem;
+
+  & button {
+    color: #FFFFFF;
+    background-color: #FF5315;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+  }
+}
+
+.dot-line {
+  width: 100% !important;
+  border: none;
+  border-top: 1px dotted black;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 50%;
+}
+
+@mixin buttonPrimary {
+  border: none;
+  background-color: transparent;
+}
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import "./Pages/Home/Home.scss";
+@import "./Pages/About/About.scss";
+@import "./Pages/Download/Download.scss";
+@import "./Pages/HowToStart/HowToStart.scss";
+
+@import "./Containers/Header/Header.scss";
+@import "./Containers/Footer/Footer.scss";
