@@ -42,9 +42,15 @@ export const Footer: React.FC<HeaderProps> = (): JSX.Element => {
             <p>All rights reserved</p>
           </div>
           <div className="Footer_social-group d-flex pt-4">
-            <Image src={Vector} width={25} height={25} />
-            <Image src={Insta} width={25} height={25} />
-            <Image src={Social} width={25} height={25} />
+            <div className="icon-hover-white">
+              <Image src={Vector} width={25} height={25} />
+            </div>
+            <div className="icon-hover-white">
+              <Image src={Insta} width={25} height={25} />
+            </div>
+            <div className="icon-hover-white">
+              <Image src={Social} width={25} height={25} />
+            </div>
           </div>
         </Col>
         <Col className="" xl={3} md="auto">

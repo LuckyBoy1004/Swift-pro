@@ -118,25 +118,25 @@ export const Home: React.FC<PageProps> = ({ }): JSX.Element => {
             <Image src={Arrow} className="" width={100} height={100} />
             <p className="pt-2 section-content-text">Powerful for traders</p>
             <p className="pt-2 px-4 section-content-text text-muted">Swift is a powerhouse when it comes to performance and speed</p>
-            <p className="pt-2 section-content-text position-absolute bottom-0 start-50 translate-middle">Learn more
+            <button className="section-content-text position-absolute bottom-0 start-50 translate-middle py-2 px-4 Home_directions_learnmore_button">Learn more
               <Image src={right} className="ms-1" width={10} height={9} />
-            </p>
+            </button>
           </div>
           <div className="text-center position-relative p-3" style={{width: "300px"}}>
             <Image src={Thro} className="" width={100} height={100} />
             <p className="pt-2 section-content-text">Low cost, forever</p>
             <p className="pt-2 px-4 section-content-text text-muted">Our low fees allow any trader to maximize profits without having to worry about any major tax reduction</p>
-            <p className="pt-2 section-content-text position-absolute bottom-0 start-50 translate-middle">Learn more
+            <button className="section-content-text position-absolute bottom-0 start-50 translate-middle py-2 px-4 Home_directions_learnmore_button">Learn more
               <Image src={right} className="ms-1" width={10} height={9} />
-            </p>
+            </button>
           </div>
           <div className="text-center position-relative p-3" style={{width: "300px"}}>
             <Image src={Cube} className="" width={100} height={100} />
             <p className="pt-2 section-content-text">Decentralized</p>
             <p className="pt-2 px-4 section-content-text text-muted">Contracts backed by secure code to ensure the safety of Swift’s users</p>
-            <p className="section-content-text position-absolute bottom-0 start-50 translate-middle">Learn more
+            <button className="section-content-text position-absolute bottom-0 start-50 translate-middle py-2 px-4 Home_directions_learnmore_button">Learn more
               <Image src={right} className="ms-1" width={10} height={9} />
-            </p>
+            </button>
           </div>
         </div>
       </div>
